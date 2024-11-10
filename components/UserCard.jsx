@@ -27,10 +27,10 @@ const Card = ({ name, heading, description, index }) => {
         {name}
       </h2>
       <p style={{ margin: '0.3rem 0', fontSize: '1rem', color: '#555' }}>
-        <strong style={{ color: '##058a12' }}>Company:</strong> {heading}
+        <strong style={{ color: '##058a12' }}>overview: </strong> {heading}
       </p>
       <p style={{ margin: '0.3rem 0', fontSize: '1rem', color: '#555' }}>
-        <strong style={{ color: '#0070f3' }}>Username:</strong> {description}
+        <strong style={{ color: '#0070f3' }}>Description: </strong> {description}
       </p>
     </div>
   );
